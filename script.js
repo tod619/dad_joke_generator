@@ -19,3 +19,5 @@ function generateJoke() {
         jokeEl.innerHTML = data.joke;
     })
 } 
+
+jokeBtn.addEventListener("click", generateJoke)
