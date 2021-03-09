@@ -8,6 +8,7 @@
 }
 
 body {
+  background-color: #686de0;
   font-family: "Roboto", sans-serif;
   height: 100vh;
   display: flex;
@@ -16,5 +17,16 @@ body {
   justify-content: center;
   overflow: hidden;
   margin: 0;
+  padding: 20px;
 }
 /* End: Global Styles */
+
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  padding: 50px 20px;
+  text-align: center;
+  max-width: 100%;
+  width: 800px;
+}
